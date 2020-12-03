@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+* {
+	/* 무조건 내가 넓이와 높이를 정해주면 고정됨 */
+	box-sizing: border-box;
+}
+
+html, body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#container {
+	height: 100%;
+	width: 100%;
+}
+
+header{
+	background-color: #333;
+	height: 50px;
+}
+
+header ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+header ul:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+header ul li {
+	float: left;
+}
+
+header ul li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+header ul li a:hover{
+	background-color: #111;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
